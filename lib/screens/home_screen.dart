@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: <Widget>[
           CircleAvatar(
             backgroundColor: Colors.white,
-            radius: 35.0,
+            radius: 30.0,
             backgroundImage: NetworkImage(_channel.profilePictureUrl),
           ),
           SizedBox(width: 12.0),
@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 video.title,
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 18.0,
+                  fontSize: 16.0,
                 ),
               ),
             ),
